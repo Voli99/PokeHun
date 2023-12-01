@@ -1,0 +1,249 @@
+/*Saját hivatkozások*/
+/*Háttérképek beállítása*/
+body.index {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('Bemutatkozás_bckgrnd.png'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+
+body.elsolepesek {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('Elsőlépések_bckgrnd.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    }
+
+body.jatek {
+    margin:0;
+    padding: 0;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('Játék-Versenyzés_bckgrnd.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    }
+
+body.kozosseg{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('Közösség_bckgrnd.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    }
+
+body.linkek{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('HasznosLinkek_bckgrnd.png'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    }
+
+body.urlap{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('Űrlap_bckgrnd.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+/*Oldal beállítások*/
+main {
+    height: auto;
+    background-color: white;
+    padding: 10px; }
+footer {
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+/*NAVBAR*/
+
+.menu-container {
+    width: 100%;
+    text-align: center;
+    background-color:orange;
+    padding: 10px;
+  }
+
+  .menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu-item {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .menu-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+/*Szöveg méretzése*/
+h1 {
+    font-size: 2em; 
+}
+
+p {
+    font-size: 1.1rem; 
+}
+
+/*Szöveg kiemelés*/
+.important-text {
+    border: 2px solid black;
+    background-color: orange;
+    padding: 10px;
+    margin: 5px 0;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+}
+/*Blokkok elkerülése*/
+
+nav#skip a {position:absolute; left:-99999px}
+nav#skip a {position:static; background-color:white}
+nav#skip h2 {position:absolute; left:-99999px}
+
+/* Nem látogatott linkek */
+a:link {
+    color: black; /* Példa szín */
+    text-decoration: none; /* Ezzel eltávolítjuk az aláhúzást */
+  }
+
+/* Látogatott linkek */
+ a:visited {
+    color:grey; /* Példa szín a látogatott linkekhez */
+}
+/*Aktuális menüpont kiemelése*/
+.current-page {
+    background-color: white; /* Háttérszín vagy más stílus a kiemeléshez */
+  }
+/*Táblázat*/
+table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+table, th, td {
+        border: 1px solid black;
+    }
+th, td {
+        padding: 10px;
+        text-align: center;
+    }
+/*Űrlap*/
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    height: auto;
+    background-color: white;
+    padding: 10px; 
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+label.rating-label {
+display: inline-block;
+margin-right: 10px;
+}
+
+input[type="radio"] {
+    display: none; 
+}
+
+input[type="radio"] + label {
+    border: 2px solid #3498db;
+    background-color: #ecf0f1;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + label {
+    background-color: #3498db;
+    color: white;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+input[type="checkbox"].checkbox-input {
+    width: 20px; 
+    height: 20px; 
+    margin-right: 5px; 
+}
+
+input[type="checkbox"].checkbox-input + label {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+/*Fejléc*/
+.header-container {
+    position: relative;
+    height: 300px; 
+}
+
+.header-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    margin: auto;
+  }
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+
+

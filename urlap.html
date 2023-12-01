@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <title>Urlap</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="kulso.css">
+    <link href="nyomtatas.css" media="print" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="urlap">
+        <nav id="skip">
+          <a href="#main-content">Ugrás a tartalomhoz</a>
+        </nav>
+        <header>
+    <div class="header-container">
+        <img src="PokeHun_Logo.jpg" alt="Main Image" class="header-image"> 
+    </div>
+    </header>
+    <div class="menu-container">
+        <ul class="menu-list">
+          <li class="menu-item"><a href="index.html" target="_blank" class="menu-link">Bemutatkozás</a></li>
+          <li class="menu-item"><a href="elsolepesek.html" target="_blank" class="menu-link">Első lépések</a></li>
+          <li class="menu-item"><a href="jatek.html" target="_blank" class="menu-link">Játék/Versenyzés</a></li>
+          <li class="menu-item"><a href="kozosseg.html" target="_blank" class="menu-link">Közösség</a></li>
+          <li class="menu-item"><a href="linkek.html" target="_blank"  class="menu-link">Hasznos Linkek</a></li>
+        </ul>
+      </div>
+    
+      <div class="w3-content " style="max-width:2000px;margin-top:46px;">
+        <div class="w3-container w3-content w3-center w3-padding-8" style="max-width:800px" id="bemutatkozas">
+    <form action="urlap.php" method="post">
+        <section id="main-content"><h1>Értékelő űrlap</h1>
+        <label for="kerdes">Hasznosnak/informatívnak találta az oldalt(igen/nem)?</label>
+        <textarea id="kerdes" name="kerdes" rows="1" required></textarea>
+<br>
+        <label for="visszajelzes">Amennyiben „Nem” kérlek pár sorral segíts nekünk, hogy ezt orvosolni tudjuk!</label>
+        <textarea id="visszajelzes" name="visszajelzes" rows="10" maxlength="730"></textarea>
+
+        <label>Egy 10-es skálán mennyire ajánlanád ismerőseidnek?</label>
+        <div>
+            <input type="radio" name="rating" value="1" id="rating1"><label for="rating1" class="rating-label">1</label>
+            <input type="radio" name="rating" value="2" id="rating2"><label for="rating2" class="rating-label">2</label>
+            <input type="radio" name="rating" value="3" id="rating3"><label for="rating3" class="rating-label">3</label>
+            <input type="radio" name="rating" value="4" id="rating4"><label for="rating4" class="rating-label">4</label>
+            <input type="radio" name="rating" value="5" id="rating5"><label for="rating5" class="rating-label">5</label>
+            <input type="radio" name="rating" value="6" id="rating6"><label for="rating6" class="rating-label">6</label>
+            <input type="radio" name="rating" value="7" id="rating7"><label for="rating7" class="rating-label">7</label>
+            <input type="radio" name="rating" value="8" id="rating8"><label for="rating8" class="rating-label">8</label>
+            <input type="radio" name="rating" value="9" id="rating9"><label for="rating9" class="rating-label">9</label>
+            <input type="radio" name="rating" value="10" id="rating10"><label for="rating10" class="rating-label">10</label>
+        </div>
+    <div class="important-text">Tudnál javasolni olyan oldalt, ami nem szerepelt a „Hasznos Linkek” menüpont alatt, de informatív lenne a kezdők számára? (Link +Pár sorral kérlek írd le az oldalt)
+    </div>
+<label for="leiras">Ajánlott oldal rövid leírása(max 700 karakter):</label>
+        <textarea id="leiras" name="leiras" rows="10" required></textarea>
+    <label for="link">Ajánlott oldalhoz tartozó link:</label>
+        <input type="url" id="link" name="link" placeholder="https://example.com">
+
+        <label>Elfogadom/Hozzájárulok, hogy amennyiben ajánlok oldalt, valamint ahhoz tartozó leírást, azt felhasználják, az oldal fejlesztésében.<input type="checkbox" name="subscribe" value="yes" class="checkbox-input"></label>
+
+        <input type="submit" value="Beküldés">
+    </section>
+    </form>
+      </div>
+    </div>
+    <footer>
+        <p class=" w3-button w3-border w3-medium"><a href="urlap.html" target="_blank">Értékelő űrlap kitöltése</a></p>
+      </footer>
+</body>
+</html>

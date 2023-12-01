@@ -1,0 +1,14 @@
+/*Nyomtatási kép*/
+@media print {
+    footer, header, .navbar {
+      display: none; 
+    }
+
+    video {
+      display: none; 
+    }
+
+    img {
+      max-width: 50%;
+    }
+  }
