@@ -73,7 +73,8 @@ main {
     padding: 10px; }
 footer {
     text-align: center;
-    color: white;
+    color: black;
+    background-color: orange;
     padding: 5px;
 }
 /*NAVBAR*/
@@ -132,16 +133,16 @@ nav#skip h2 {position:absolute; left:-99999px}
 /* Nem látogatott linkek */
 a:link {
     color: black; /* Példa szín */
-    text-decoration: none; /* Ezzel eltávolítjuk az aláhúzást */
+    text-decoration: underline; 
   }
 
 /* Látogatott linkek */
  a:visited {
-    color:grey; /* Példa szín a látogatott linkekhez */
+    color:grey; 
 }
 /*Aktuális menüpont kiemelése*/
 .current-page {
-    background-color: white; /* Háttérszín vagy más stílus a kiemeléshez */
+    background-color: white; 
   }
 /*Táblázat*/
 table {
@@ -244,6 +245,12 @@ figcaption {
   padding: 3px;
   text-align: center;
 }
+img {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 100px; /* Set a small width */
+  }
 
 
 

@@ -1,6 +1,6 @@
 /*Nyomtatási kép*/
 @media print {
-    footer, header, .navbar {
+    nav,footer, header, .menu-container {
       display: none; 
     }
 
